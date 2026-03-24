@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My OTT</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>My OTT</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Series</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Trending Now</h2>
+    <div class="container">
+      <div class="video-card" onclick="playVideo('https://example.com/video1.mp4')">
+        <img src="poster1.jpg" alt="Movie 1" />
+        <h3>Movie 1</h3>
+      </div>
+      <div class="video-card" onclick="playVideo('https://example.com/video2.mp4')">
+        <img src="poster2.jpg" alt="Movie 2" />
+        <h3>Movie 2</h3>
+      </div>
+      <div class="video-card" onclick="playVideo('https://example.com/video3.mp4')">
+        <img src="poster3.jpg" alt="Movie 3" />
+        <h3>Movie 3</h3>
+      </div>
+      <div class="video-card" onclick="playVideo('https://example.com/video4.mp4')">
+        <img src="poster4.jpg" alt="Movie 4" />
+        <h3>Movie 4</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="player hidden">
+    <div class="close-player" onclick="closePlayer()">✕</div>
+    <video id="main-video" controls autoplay></video>
+  </section>
+
+  <script src="script1.js"></script>
+</body>
+</html>

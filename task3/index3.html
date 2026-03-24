@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATM Dashboard</title>
+  <link rel="stylesheet" href="style3.css" />
+</head>
+<body>
+  <div class="container" id="loginPage">
+    <h2>ATM Login</h2>
+    <input type="number" id="cardNumber" placeholder="Enter Card Number" />
+    <input type="password" id="pin" placeholder="Enter PIN" />
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div class="container" id="dashboardPage" style="display: none;">
+    <h2>ATM Dashboard</h2>
+    <p>Account: <span id="accNumber"></span></p>
+    <p>Balance: ₹<span id="balance">0.00</span></p>
+
+    <div class="input-group">
+      <label>Deposit Amount</label>
+      <input type="number" id="depositAmount" min="0" />
+      <button onclick="deposit()">Deposit</button>
+    </div>
+
+    <div class="input-group">
+      <label>Withdraw Amount</label>
+      <input type="number" id="withdrawAmount" min="0" />
+      <button onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script3.js"></script>
+</body>
+</html>
