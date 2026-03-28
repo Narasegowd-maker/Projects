@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>D R NARASEGOWD | Portfolio</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>D R NARASEGOWD</h1>
+      <p class="tagline">BSc Computer Science Student</p>
+      <div class="contact">
+        <span>📞 7382617473</span>
+        <span>📧 <a href="mailto:Narasegowd444@gmail.com">Narasegowd444@gmail.com</a></span>
+        <span>📍 Madakasira, Sri Satya Sai (Dist)</span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT / OBJECTIVE -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Seeking an environment where my knowledge and experience can be shared
+          and enriched for the productivity and goals of the organization. I am
+          looking for an opportunity where I can apply my skills towards the
+          growth of the organization.
+        </p>
+        <ul class="info-list">
+          <li><strong>Date of Birth:</strong> 03-03-1994</li>
+          <li><strong>Languages:</strong> Telugu, Kannada, English</li>
+          <li><strong>Marital Status:</strong> Unmarried</li>
+          <li><strong>Nationality:</strong> Indian</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">MS Office</div>
+          <div class="skill-card">Good Keyboard Skills</div>
+          <div class="skill-card">Computer Basics</div>
+          <div class="skill-card">MS DOS</div>
+          <div class="skill-card">HTML &amp; CSS (Learning)</div>
+          <div class="skill-card">JavaScript (Learning)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="edu-item">
+          <h3>BSc (Computer Science)</h3>
+          <p>Sri Venkateswara Degree College, Madakasira</p>
+          <span class="edu-meta">Status: Still studying</span>
+        </div>
+
+        <div class="edu-item">
+          <h3>Intermediate (MPC)</h3>
+          <p>Govt Jr College, Madakasira</p>
+          <span class="edu-meta">59.90% – 2011</span>
+        </div>
+
+        <div class="edu-item">
+          <h3>SSC</h3>
+          <p>A P High School, Papasanipalli</p>
+          <span class="edu-meta">71.00% – 2009</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (you can add later) -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Currently I have not completed formal projects. I am learning HTML, CSS and JavaScript and plan to add academic and personal projects here soon.</p>
+        <button id="showSampleBtn" class="btn">Show Sample Project</button>
+        <div id="sampleProject" class="card hidden">
+          <h3>Sample Portfolio Website</h3>
+          <p>This portfolio itself is a sample project created using HTML, CSS and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / ADDRESS -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div>
+            <h3>Address</h3>
+            <p>
+              D.R. NARASEGOWD s/o D. RAMAKRISHNA<br />
+              Door No: 8-57, Kothulagutta (V), Madakasira (M),<br />
+              Sri Satya Sai (Dist), Andhra Pradesh – 515291
+            </p>
+          </div>
+          <div>
+            <h3>Send a Message</h3>
+            <form id="contactForm">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <input type="email" id="email" placeholder="Your Email" required />
+              <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn">Submit</button>
+              <p id="formStatus" class="status-text"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 D R NARASEGOWD. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
