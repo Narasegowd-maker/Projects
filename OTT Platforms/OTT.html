@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video Clone</title>
+    <link rel="stylesheet" href="ott.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="Amazon Logo.png" alt="Prime Video" class="logo">
+        <div class="nav-right">
+            <i class="fa fa-globe"></i>
+            <div class="dropdown">
+                <button class="dropbtn">EN <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">हिन्दी</a>
+                    <!-- Add more languages -->
+                </div>
+            </div>
+            <a href="#" class="sign-in">Sign In</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <video autoplay muted loop poster="Poster1.jpg">
+            <source src="Ustad promo.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Welcome to Prime Video</h1>
+            <p>Join Prime to watch movies, TV shows, and Amazon Originals.</p>
+            <button class="cta-btn">Start your 30-day free trial</button>
+        </div>
+    </section>
+
+    <main>
+        <div class="row">
+            <h2>Trending Now</h2>
+            <div class="carousel">
+                <div class="carousel-inner" id="trending">
+                    <!-- JS populates posters -->
+                </div>
+                <button class="carousel-btn left" onclick="scrollLeft('trending')"><i class="fa fa-chevron-left"></i></button>
+                <button class="carousel-btn right" onclick="scrollRight('trending')"><i class="fa fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+<div class="row">
+        <div class="video-container">
+  <video id="player" width="640" height="360" controls poster="thumbnail.jpg">
+    <source src="Ustad promo.mp4" type="video/mp4">
+    <source src="Ustad promo.mp4" type="video/mp4">
+    Browser does not support video.
+  </video>
+  <div class="controls">
+    <button id="playPause">Play</button>
+    <div class="progress-bar" id="progressBar"><div class="progress" id="progress"></div></div>
+    <span id="time">0:00 / 0:00</span>
+  </div>
+</div>
+ <div class="video-container">
+  <video id="player" width="640" height="360" controls poster="thumbnail.jpg">
+    <source src="Gabbar Singh.mp4" type="video/mp4">
+    <source src="Gabbar Singh.mp4" type="video/mp4">
+    Browser does not support video.
+  </video>
+  <div class="controls">
+    <button id="playPause">Play</button>
+    <div class="progress-bar" id="progressBar"><div class="progress" id="progress"></div></div>
+    <span id="time">0:00 / 0:00</span>
+  </div>
+</div>
+ <div class="video-container">
+  <video id="player" width="640" height="360" controls poster="thumbnail.jpg">
+    <source src="Jalsa.mp4" type="video/mp4">
+    <source src="Jalsa.mp4" type="video/mp4">
+    Browser does not support video.
+  </video>
+  <div class="controls">
+    <button id="playPause">Play</button>
+    <div class="progress-bar" id="progressBar"><div class="progress" id="progress"></div></div>
+    <span id="time">0:00 / 0:00</span>
+  </div>
+</div>
+ <div class="video-container">
+  <video id="player" width="640" height="360" controls poster="thumbnail.jpg">
+    <source src="TholiPrema.mp4" type="video/mp4">
+    <source src="TholiPrema.mp4" type="video/mp4">
+    Browser does not support video.
+  </video>
+  <div class="controls">
+    <button id="playPause">Play</button>
+    <div class="progress-bar" id="progressBar"><div class="progress" id="progress"></div></div>
+    <span id="time">0:00 / 0:00</span>
+  </div>
+</div>
+<div class="video-container">
+  <video id="player" width="640" height="360" controls poster="thumbnail.jpg">
+    <source src="Agnyaathavaasi.mp4" type="video/mp4">
+    <source src="Agnyaathavaasi.mp4" type="video/mp4">
+    Browser does not support video.
+  </video>
+  <div class="controls">
+    <button id="playPause">Play</button>
+    <div class="progress-bar" id="progressBar"><div class="progress" id="progress"></div></div>
+    <span id="time">0:00 / 0:00</span>
+  </div>
+</div>
+</div>
+    <div class="row">
+            <h2>Amazon Originals</h2>
+            <div class="carousel">
+                <div class="carousel-inner" id="originals">
+                    <!-- JS populates posters -->
+                </div>
+                <button class="carousel-btn left" onclick="scrollLeft('originals')"><i class="fa fa-chevron-left"></i></button>
+                <button class="carousel-btn right" onclick="scrollRight('originals')"><i class="fa fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Add more rows as needed -->
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Amazon.com, Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="ott.js"></script>
+</body>
+</html>
