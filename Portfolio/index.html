@@ -1,0 +1,257 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>D R Narasegowd | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <div class="avatar">DR</div>
+        <div class="brand-text">
+          <img src="Image.jpg" alt="D R Narasegowd" class="profile-pic" id="header-pic">
+        <h1>D R Narasegowd</h1>
+          <span>Student • BSc Computer Science</span>
+        </div>
+      </div>
+    </div>
+
+      <nav>
+        <button class="nav-btn active" data-target="dashboard">
+          <span class="icon">📊</span>Dashboard
+        </button>
+        <button class="nav-btn" data-target="profile">
+          <span class="icon">👤</span>Profile
+        </button>
+        <button class="nav-btn" data-target="projects">
+          <span class="icon">💼</span>Projects
+        </button>
+        <button class="nav-btn" data-target="resume">
+          <span class="icon">📄</span>Resume
+        </button>
+        <button class="nav-btn" data-target="social">
+          <span class="icon">🌐</span>Social
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- LEFT COLUMN -->
+      <section id="dashboard" class="card left-card">
+        <div class="card-header">
+          <div class="card-title">Overview dashboard</div>
+          <div class="badge">Live</div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-label">Education</div>
+            <div class="stat-value">BSc</div>
+            <div class="stat-sub">Computer Science • Studying</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-label">Experience</div>
+            <div class="stat-value">Fresher</div>
+            <div class="stat-sub">Ready to learn & grow</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-label">Skills</div>
+            <div class="stat-value">4+</div>
+            <div class="stat-sub">MS Office, Computer basics…</div>
+          </div>
+        </div>
+
+        <p class="objective">
+          Seeking an environment where my knowledge and experience can be shared and enriched for the productivity and goals of the organization, with opportunities to apply my skills towards its growth.
+        </p>
+      </section>
+
+      <section id="profile" class="card left-card" style="display:none">
+        <div class="card-header">
+          <div class="card-title">Profile</div>
+          <img src="photo.jpg" alt="Profile Picture" class="profile-pic-large">
+          <div class="badge">Details</div>
+      </div>
+
+        <div class="profile-grid">
+          <div>
+            <ul class="profile-list">
+              <li>
+                <span class="profile-label">Name</span>
+                <span>D R Narasegowd</span>
+              </li>
+              <li>
+                <span class="profile-label">Date of birth</span>
+                <span>03‑03‑1994</span>
+              </li>
+              <li>
+                <span class="profile-label">Languages</span>
+                <span>Telugu, Kannada, English</span>
+              </li>
+              <li>
+                <span class="profile-label">Location</span>
+                <span>Kothulagutta, Madakasira</span>
+              </li>
+              <li>
+                <span class="profile-label">Status</span>
+                <span>Unmarried • Indian</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="profile-label">Core skills</div>
+            <div class="chip-row">
+              <span class="chip">MS Office</span>
+              <span class="chip">Computer basics</span>
+              <span class="chip">Good typing speed</span>
+              <span class="chip">Problem solving</span>
+              <span class="chip">Teamwork</span>
+            </div>
+
+            <div class="profile-label" style="margin-top:0.9rem;">Education timeline</div>
+            <div class="chip-row">
+              <span class="chip">SSC • AP High School • 71%</span>
+              <span class="chip">Intermediate (MPC) • 59.9%</span>
+              <span class="chip">BSc (Computer Science) • Ongoing</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="card left-card" style="display:none;">
+        <div class="card-header">
+          <div class="card-title">Projects</div>
+          <div class="badge">0 → 3</div>
+        </div>
+
+        <div class="projects-list">
+          <article class="project">
+            <div class="project-title">Student Result Dashboard (Concept)</div>
+            <div class="project-meta">Personal • HTML, CSS, JavaScript</div>
+            <p style="font-size:0.82rem; margin-bottom:0.35rem;">
+              A responsive dashboard that shows marks, percentages, and progress for different exams using charts and cards.
+            </p>
+            <div class="project-tags">
+              <span>Responsive design</span>
+              <span>Dynamic data</span>
+              <span>UI layout</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-title">Typing Practice Tool (Concept)</div>
+            <div class="project-meta">Personal • JavaScript</div>
+            <p style="font-size:0.82rem; margin-bottom:0.35rem;">
+              A browser tool that measures words per minute and accuracy to improve keyboard skills.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Keyboard skills</span>
+              <span>Productivity</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-title">Student Info Manager (Concept)</div>
+            <div class="project-meta">Personal • MS Excel / Access</div>
+            <p style="font-size:0.82rem; margin-bottom:0.35rem;">
+              A simple system to store student details, marks, and reports using MS Office tools.
+            </p>
+            <div class="project-tags">
+              <span>MS Office</span>
+              <span>Data entry</span>
+              <span>Organization</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN -->
+      <section id="resume" class="card right-card">
+        <div class="card-header">
+          <div class="card-title">Resume & contact</div>
+          <div class="badge">Ready</div>
+        </div>
+
+        <p style="font-size:0.84rem; color:var(--muted);">
+          Download my latest resume or reach out for opportunities aligned with data entry, computer operations, and office support roles.
+        </p>
+
+        <div class="resume-actions">
+          <!-- Put your real resume file in this folder and update the name if needed -->
+          <a href="Resume.pdf" download class="btn primary">
+            <span class="btn-icon">⬇️</span>
+            <span>Download resume</span>
+          </a>
+
+          <button class="btn" id="copyEmail">
+            <span class="btn-icon">📧</span>
+            <span>Copy email</span>
+          </button>
+        </div>
+
+        <ul class="contact-list">
+          <li>
+            <span class="dot"></span>
+            <span>Phone: <a href="tel:+917382617473">+91 73826 17473</a></span>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <span>Email: <a href="mailto:Narasegowd444@gmail.com">Narasegowd444@gmail.com</a></span>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <span>Address: Door No. 8‑57, Kothulagutta, Madakasira, Sri Satya Sai (Dist) 515291</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="social" class="card right-card" style="display:none;">
+        <div class="card-header">
+          <div class="card-title">Social links</div>
+          <div class="badge">Connect</div>
+        </div>
+
+        <p style="font-size:0.84rem; color:var(--muted);">
+          Add your social profiles below. Update the links to your real accounts.
+        </p>
+
+        <div class="social-row">
+          <a class="social-pill" href="https://www.linkedin.com" target="_blank">
+            <span class="icon">in</span>
+            <span>LinkedIn</span>
+          </a>
+          <a class="social-pill" href="https://github.com" target="_blank">
+            <span class="icon">🐙</span>
+            <span>GitHub</span>
+          </a>
+          <a class="social-pill" href="https://facebook.com" target="_blank">
+            <span class="icon">f</span>
+            <span>Facebook</span>
+          </a>
+          <a class="social-pill" href="https://instagram.com" target="_blank">
+            <span class="icon">◎</span>
+            <span>Instagram</span>
+          </a>
+          <a class="social-pill" href="https://x.com" target="_blank">
+            <span class="icon">𝕏</span>
+            <span>Twitter / X</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> D R Narasegowd. All rights reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
